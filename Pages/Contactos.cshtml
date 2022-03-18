@@ -1,0 +1,33 @@
+﻿@page
+@model Sistema_Gestion_de_Solicitudes.Pages.ContactosModel
+@{
+    ViewData["Title"] = "Contactos";
+}
+
+ <DOCTYPE! HTML>
+    <html>
+<head>
+    <title>Formularios</title>
+    <link rel="stylesheet" type="text/css" href="~/css/" />
+    <meta charset="utf-8" />
+</head>
+<body>
+    <form>
+        <h1>Formulario de inscripcion</h1>
+        <label form="Nombreusuario">Nombre usuario:</label>
+        <input type="text" name="Nomusu" /> <br />
+        <label form="Emailusuario">Email usuario:</label>
+        <input type="email" name="Emailusu" /> <br />
+        <label form="Telefonousuario">Telefono usuario:</label>
+        <input type="tel" name="Telefonousu" />
+        </select>
+        <br>
+        <label>Seleccione el genero</label><br>
+        <input type="radio" name="genero">Femenino <br>
+        <input type="radio" name="genero">Masculino <br>
+        <input type="radio" name="genero">Otro <br>
+        </label>
+        </select>
+    </form>
+</body>
+</html>
